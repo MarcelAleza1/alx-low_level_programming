@@ -2,7 +2,6 @@
 /**
  * Main - main Block
  * Return: 0
- *
  */
 int main(void)
 {
