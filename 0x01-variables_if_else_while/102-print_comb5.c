@@ -46,6 +46,5 @@ int main(void)
 		f++;
 	}
 	putchar('\n');
-	putchar('\n');
 	return (0);
 }
