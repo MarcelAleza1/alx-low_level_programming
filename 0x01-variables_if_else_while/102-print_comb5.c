@@ -8,42 +8,39 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e;
-	int f = 0;
+	int p = 48, q = 48, y = 48, x = 49;
 
-	while (f < 10)
+	while (p < 58)
 	{
-		e = 0;
-		while (e < 10)
+		while (q < 58)
 		{
-			d = 0;
-			while (d < 10)
+			while (y < 58)
 			{
-				c = 0;
-				while (c < 10)
+				while (x < 58)
 				{
-					if (!(f ==c && e == d))
+					putchar(p);
+					putchar(q);
+					putchar(' ');
+					putchar(y);
+					putchar(x);
+					if (!(p == 57 && q == 56 && y == 57 && x == 57))
 					{
-						putchar('0' + f);
-						putchar('0' + e);
+						putchar(',');
 						putchar(' ');
-						putchar('0' + d);
-						putchar('0' + c);
-						if(!(f + e == 18 && c + d == 17 && d == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
 					}
-					c++;
+					x++;
 				}
-				d++;
+				y++;
+				x = 48;
 			}
-			e++;
+			q++;
+			q = p;
+			x = q + 1;
 		}
-		f++;
+		p++;
+		q = 48;
+		y = p;
+		x = q+1;
 	}
 	putchar('\n');
 	return (0);
