@@ -1,4 +1,4 @@
-#include <holberton.h>
+#include "main.h"
 /**
  * main - main block
  * Description: Write a program that prints _putchar, followed by a new line
@@ -10,12 +10,12 @@ int main(void)
 
 	int i =0;
 
-	while (i < 7)
+	while (i < 8)
 	{
 		_putchar(c[i]);
 
 		i++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }
