@@ -35,7 +35,7 @@ int main(void)
 	while (i <= 98)
 	{
 		if (f10 > 0)
-			print("%lu", f10);
+			printf("%lu", f10);
 		initial0s = numLength(mx) - 1 - numLength(f1);
 		while (f10 > 0 && initial0s > 0)
 		{
@@ -55,7 +55,7 @@ int main(void)
 			printf(", ");
 		else
 			printf("\n");
-		i++
+		i++;
 	}
 	return (0);
 }
