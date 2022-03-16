@@ -5,7 +5,7 @@
  * @num : operand number
  * Return: number of digits
  */
-int numLenght(int num)
+int numLength(int num)
 {
 	int length = 0;
 
@@ -49,7 +49,7 @@ int main(void)
 		f1 = f2;
 		f10 = f20;
 		f2 = tmp;
-		f20 = temp0;
+		f20 = tmp0;
 
 		if (i != 98)
 			printf(", ");
