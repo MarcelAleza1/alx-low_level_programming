@@ -19,6 +19,12 @@ void print_times_table(int n)
 			rep = a * b;
 			if (b == 0)
 				_putchar('0' + rep);
+			else if (rep < 10)
+			{
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + rep);
+			}
 			else if (rep < 100)
 			{
 				_putchar(' ');
