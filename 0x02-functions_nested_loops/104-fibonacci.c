@@ -29,7 +29,7 @@ int numLength(int num)
  */
 int main(void)
 {
-	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f10 = 0, f20 = 0,tmp0 = 0;
+	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f10 = 0, f20 = 0, tmp0 = 0;
 	short int i = 1, initial0s;
 
 	while (i <= 98)
