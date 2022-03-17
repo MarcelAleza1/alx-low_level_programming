@@ -10,19 +10,16 @@ int _putchar(char c);
  */
 void print_number(int n)
 {
-	unsigned int n1 = 0;
+	unsigned int x;
 
-	if ( n < 0)
-	{
-		n1 = -n;
-		_putchar('-');
-	}
-	else
-		n1 = n;
+	x = n;
 
-	if (n1 / 10)
+	if (n < 0)
 	{
-		print_number(n1 / 10);
+		_putchar(45);
+		x = -n;
 	}
-	_putchar((n1 % 10) + '0');
+	if (x / 10)
+		print_number(x / 10);
+	_putchar((x % 10) + '0');
 }
