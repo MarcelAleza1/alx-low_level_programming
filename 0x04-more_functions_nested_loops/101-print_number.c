@@ -4,7 +4,7 @@
 
 int _putchar(char c);
 /**
- * print_numer - like a hello worl
+ * print_number - like a hello worl
  * @n: params an integer
  * No return
  */
