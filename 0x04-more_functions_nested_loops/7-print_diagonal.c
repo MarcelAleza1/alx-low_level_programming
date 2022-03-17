@@ -22,6 +22,5 @@ void print_diagonal(int n)
 				k++;
 			}
 	}
-	else
-		_putchar('\n');
+	_putchar('\n');
 }
