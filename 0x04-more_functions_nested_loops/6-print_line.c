@@ -4,7 +4,7 @@
  * @n: number of time _ is printed
  * Return: void
  */
-void (int n)
+void print_line(int n)
 {
 	int i = 0;
 
