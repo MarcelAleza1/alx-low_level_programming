@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - Fizz for multiple of 3 and Buzz for multiples of 5
  * FizzBuzz for both
@@ -15,11 +15,11 @@ int main(void)
 		{
 			printf("%s", "FizzBuzz");
 		}
-		else if (x % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("%s", "Fizz");
 		}
-		else if (x % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("%s", "Buzz");
 		}
