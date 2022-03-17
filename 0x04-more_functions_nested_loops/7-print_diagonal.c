@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - prints the diagonal
- * @n: the number of time \n should be printed
+ * @n: the number of \\ should be printed
  * Return: void
  */
 void print_diagonal(int n)
@@ -12,7 +12,7 @@ void print_diagonal(int n)
 	{
 		while (k < n)
 			{
-				for(i = 0; i < k; i++)
+				for (i = 0; i < k; i++)
 				{
 					_putchar(' ');
 				}
