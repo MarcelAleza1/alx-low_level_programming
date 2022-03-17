@@ -6,7 +6,7 @@
 void more_numbers(void)
 {
 	char i = 0;
-	while (i < 14)
+	while (i <= 14)
 	{
 		_putchar('0' + i);
 		i++;
