@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 	int sign = 1, resp = 0, fn;
 
-	for(fn = 0; !(s[fs] >= 48 && s[fn] <= 57); fn++)
+	for(fn = 0; !(s[fn] >= 48 && s[fn] <= 57); fn++)
 	{
 		if (s[fn] == '-')
 		{
