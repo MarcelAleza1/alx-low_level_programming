@@ -9,7 +9,7 @@
 
 int _atoi(char *s)
 {
-	int sign = 1, resp = 0, fn;
+	int sign = 1, resp = 0, fn, i = 0;
 
 	for(fn = 0; !(s[fn] >= 48 && s[fn] <= 57); fn++)
 	{
@@ -18,7 +18,7 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-	for (int i = fn; s[i] >= 48 && s[i] <= 57; i++)
+	for (i = fn; s[i] >= 48 && s[i] <= 57; i++)
 	{
 		resp *= 10;
 		resp += (s[i] - 48);
