@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_array - function to print an array
  * @a: pointer that points to the array location
