@@ -9,30 +9,20 @@
 
 int _atoi(char *s)
 {
-	int i;
-	int h, p;
-
-	h = 0;
-	p = -1;
-
-	for (i = 0; s[i] != '\0'; i++)
+	int sign = 1, resp = 0, fn, i;
+	for (fn = 0; !(s[fn] >= 48 && s[fn] <= 57); fn++)
 	{
-		if (s[i] == '-')
-			p *= -1;
-		
-		if (s[i] > 47 && s[i] < 58)
+		if (s[fn] == '-')
 		{
-
-		if (h < 0)
-			h = (h * 10) - (s[i] - '0');
-		else
-			h = (s[i] - '0') * -1;
-		if (s[i + 1] < 48 || s[i + 1] > 57)
-			break;
+			sign *= -1;
+		}
 	}
+
+	for (i = fn; s[i] >= 48 && s[i] <= 57; i++)
+	{
+		resp *= 10;
+		resp += (s[i] - 48);
+	}
+
+	return (sign * resp);
 }
-if (p < 0)
-	h *= -1;
-
-	return (h);
-	}
