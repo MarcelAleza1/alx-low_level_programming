@@ -9,14 +9,14 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j = 0;
+	int i = 0, j = 0, n;
 
 	while (s1 != '\0')
 		i++;
 	while (s2 != '\0')
 		j++;
 
-	int n = i - j;
+	n = i - j;
 
 	return (n);
 }
