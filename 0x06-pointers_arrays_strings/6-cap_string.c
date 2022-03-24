@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * *cap_string - this is awesome
+ * *cap_string - function to capitalize word
  * @str: pointer
  * Description: convert string into uppercase
- * Return: char
+ * Return: capitalized string
  */
 char *cap_sting(char *str)
 {
