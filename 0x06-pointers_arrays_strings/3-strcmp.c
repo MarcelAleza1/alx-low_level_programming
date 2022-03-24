@@ -16,5 +16,7 @@ int _strcmp(char *s1, char *s2)
 	while (s2 != '\0')
 		j++;
 
-	return (i-j);
+	int n = i - j;
+
+	return (n);
 }
