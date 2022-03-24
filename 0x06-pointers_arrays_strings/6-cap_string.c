@@ -3,8 +3,9 @@
 
 /**
  * *cap_string - this is awesome
- * @s: Pointer to char params
- * Return: *s
+ * @str: pointer
+ * Description: convert string into uppercase
+ * Return: char
  */
 char *cap_sting(char *str)
 {
