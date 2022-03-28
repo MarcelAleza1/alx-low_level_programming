@@ -17,7 +17,7 @@ unsigned int _strpn(char *s, char *accept)
 	{
 		for (j = 0; accept != '\0'; j++)
 		{
-			if ( *(s + i) == *(accept + j))
+			if (s + i == accept + j)
 			{
 				c++;
 				return (c);
