@@ -10,7 +10,7 @@
 unsigned int _strpn(char *s, char *accept)
 {
 	unsigned int c = 0;
-	char *t = accept;
+
 	int i, j;
 
 	for (i = 0; s != '\0'; i++)
