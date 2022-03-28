@@ -5,6 +5,7 @@
  * print_diasums - function to print diagonal sum
  * @a: 2d array of int types
  * @size: size of the array
+ * Return: void
  */
 void print_diagsums(int *a, int size)
 {
@@ -13,7 +14,7 @@ void print_diagsums(int *a, int size)
 	for (i = 0; i < size; i++)
 	{
 		sum1 += a[i];
-		sum2 += a[size - i -1];
+		sum2 += a[size - i - 1];
 		a += size;
 	}
 
