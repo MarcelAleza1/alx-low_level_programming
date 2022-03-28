@@ -11,9 +11,10 @@ char *_memeset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; n > 0; i++, n--)
+	while (i < n)
 	{
 		s[i] = b;
+		i++;
 	}
 
 	return (s);
