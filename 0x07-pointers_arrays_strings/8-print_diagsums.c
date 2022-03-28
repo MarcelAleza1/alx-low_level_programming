@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diasums - function to print diagonal sum
+ * print_diagsums - function to print diagonal sum
  * @a: 2d array of int types
  * @size: size of the array
  * Return: void
