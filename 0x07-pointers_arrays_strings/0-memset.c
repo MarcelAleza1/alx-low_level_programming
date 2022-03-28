@@ -6,15 +6,16 @@
  * @s: the momey address (memeory area)
  * @b: constant byte b
  * @n: first n bytes
+ * Return: pointer
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	while (i < n)
+	for (i = 0; n > 0; i++, n--)
 	{
-		*(s + i) = b;
-		i++;
+		s[i] = b;
+
 	}
 
 	return (s);
