@@ -23,7 +23,7 @@ int sqrt(int n, int x)
 	if (x * x == n)
 		return x;
 	else if (x * x < n)
-		return (sqrt(m, x + 1));
+		return (sqrt(n, x + 1));
 	else
 		return (-1);
 }
