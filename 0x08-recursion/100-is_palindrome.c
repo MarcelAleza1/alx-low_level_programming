@@ -17,7 +17,7 @@ int _strlen_recursion(char *s)
  * @s: string
  * @n1: smallest itterator.
  * @n2: biggest iterator
- * Retun: appropriate vale
+ * Return: appropriate vale
  */
 
 int comparator(char *s, int n1, int n2)
@@ -31,7 +31,7 @@ int comparator(char *s, int n1, int n2)
 	return (0);
 }
 /**
- * is_palindrom - detects if a string is palindrome.
+ * is_palindrome - detects if a string is palindrome.
  * @s: string.
  * Return: 1 or 0
  */
