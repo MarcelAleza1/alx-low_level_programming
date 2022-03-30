@@ -7,7 +7,7 @@
  * Factorial 0 is 1
  * Return: factiorial of n
  */
-int factorial (int n)
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
