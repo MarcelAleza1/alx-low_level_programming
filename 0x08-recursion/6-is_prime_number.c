@@ -9,11 +9,11 @@ int is_prime_number(int n)
 {
 	if (n == 0 || n == 1 || n < 0)
 		return (0);
-	return check_if_prime(n, 2);
+	return (check_if_prime(n, 2));
 }
 
 /**
- * check_prime- check if a number is divisible
+ * check_if_prime - check if a number is divisible
  * @n: the number
  * @i: iterator
  * Return: 1 if prime and o if not prime
@@ -28,5 +28,5 @@ int check_if_prime(unsigned int n, unsigned int i)
 		else
 			return (0);
 	}
-	return check_if_prime(n, i + 1);
+	return (check_if_prime(n, i + 1));
 }
