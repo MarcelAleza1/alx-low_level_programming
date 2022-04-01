@@ -14,8 +14,8 @@ int main(int arg, char *argv[])
 
 	if (arg != 3)
 	{
-		printf("Error\n"):
-			return (1);
+		printf("Error\n");
+		return (1);
 	}
 	for (i = 1; i < argc; i++)
 	{
