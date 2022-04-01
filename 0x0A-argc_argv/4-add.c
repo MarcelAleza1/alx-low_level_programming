@@ -7,7 +7,7 @@
  * main - adds positive numbers
  * @argc: n args
  * @argv: arr args
- * Return : 0
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
