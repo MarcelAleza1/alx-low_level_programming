@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- * @argv: argument count
+ * @argc: argument count
  * @argv: argument vector.
  *
  * Return: 0

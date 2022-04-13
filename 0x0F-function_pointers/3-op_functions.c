@@ -25,6 +25,13 @@ int op_sub(int a, int b)
 	return (a - b);
 }
 
+/**
+ * op_mul - multiply 2 numbers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: a times b
+ */
 int op_mul(int a, int b)
 {
 	return (a * b);
@@ -35,7 +42,7 @@ int op_mul(int a, int b)
  * @a: first number
  * @b: second number
  *
- * return: division
+ * Return: division
  */
 int op_div(int a, int b)
 {
