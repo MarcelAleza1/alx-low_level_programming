@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b;
-	int (*operator)(int, int);
+	int (*operation)(int, int);
 
 	if (argc != 4)
 	{
@@ -35,6 +35,6 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
-	print("%d\n", operation(a, b));
+	printf("%d\n", operation(a, b));
 	return (0);
 }
