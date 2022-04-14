@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * print_string - prints all strings with a separator
+ * print_strings - prints all strings with a separator
  * @separator: separator
  * @n: number of undefined args
  *
