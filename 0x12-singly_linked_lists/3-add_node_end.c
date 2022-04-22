@@ -10,7 +10,7 @@
  * Return: new node
  */
 
-lidt_t *add_node_end(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *current;
 	list_t *new_node;
@@ -36,7 +36,7 @@ lidt_t *add_node_end(list_t **head, const char *str)
 		free(new_node);
 		return (NULL);
 	}
-	new_node->len = c;
+	new_node->len = p;
 	new_node->next = NULL;
 
 	if (current)
