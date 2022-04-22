@@ -4,9 +4,9 @@
  * premain - run before main
  */
 
-void __attribut__ ((constructor)) prmain()
+void __attribute__ ((constructor)) premain()
 {
 	printf(
-			"Tou're beat! and yet, you must allow,\nI bore my house upon my back!\n"
+			"You're beat! and yet, you must allow,\nI bore my house upon my back!\n"
 	      );
 }
