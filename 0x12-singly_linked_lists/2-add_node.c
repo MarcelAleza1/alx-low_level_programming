@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *add_note - add string into a linked list head
+ * *add_node - add string into a linked list head
  * @head: link list head
  * @str: string
  * Return: number of elements
