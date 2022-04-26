@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
@@ -15,7 +15,7 @@ size_t listint_len(const listint_t *h)
 
 	while (current != NULL)
 	{
-		current = current->nexxt;
+		current = current->next;
 		num++;
 	}
 
