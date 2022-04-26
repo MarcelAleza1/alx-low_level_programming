@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * delete_node_at_index - deletes node at ith indes
+ * delete_nodeint_at_index - deletes node at ith indes
  * @head: head
  * @index: index
  * Return: 1 if suceeded, -1 if failed
