@@ -3,7 +3,7 @@
 
 /**
  * print_listint - prints element of linstint
- * @h: linked list 
+ * @h: linked list
  *
  * Return: number of nodes
  */
