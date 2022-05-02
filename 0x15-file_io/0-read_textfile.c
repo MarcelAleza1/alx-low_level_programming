@@ -4,7 +4,7 @@
  * read_textfile - reads a text from a file and print it to POSIX stoud
  * @filename: name of the file
  * @letters: number of letters
- * @Return: number of letters to be printed
+ * Return: number of letters to be printed
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
