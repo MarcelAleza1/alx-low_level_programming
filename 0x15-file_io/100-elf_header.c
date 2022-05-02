@@ -6,7 +6,7 @@
 
 /**
  * main - create the copy bash script
- * @ac: argument count
+ * @ac: argument
  * @av: arguments as strings
  * Return: 0
  */
